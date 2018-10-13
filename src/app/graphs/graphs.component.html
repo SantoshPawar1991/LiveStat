@@ -1,0 +1,69 @@
+<p>
+  <b>{{title}}</b>
+</p>
+
+<!-- <table>
+    <tr>
+      <td><canvas id="lineChart"></canvas></td>
+      <td></td>
+    </tr>
+  </table> -->
+
+  <div class="container">
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Type</th>
+        <th>Name</th>
+        <th>PPu</th>
+        <th>BattersID</th>
+       
+      </tr>
+    </thead>
+        <tr *ngFor="let comments of storePageData" >
+            <td>{{comments.id}}</td>
+            <td>{{comments.type}}</td>
+            <td>{{comments.name}}</td>
+            <td>{{comments.ppu}}</td>
+            <!-- <td>{{comments.batters.batter.type}}</td> -->
+            <!-- <span *ngFor="let bat of comments.batters.batter[0]">
+               {{bat.id}}
+            </span> -->
+
+        </tr>
+        <br>
+
+        <tr *ngFor="let topping of storePageData[2].batters.batter[1]">
+            <td>{{topping.id}}</td>
+            <td>{{topping.type}}</td>
+        </tr>
+        <!-- <tr *ngFor="let top of storePageData[0].topping">
+            <td>{{top.id}}</td>
+            <td>{{top.type}}</td>
+        </tr>
+        <br>
+        <tr *ngFor="let top of storePageData[1].topping">
+            <td>{{top.id}}</td>
+            <td>{{top.type}}</td>
+        </tr>
+        <br>
+        <tr *ngFor="let top of storePageData[2].topping">
+            <td>{{top.id}}</td>
+            <td>{{top.type}}</td>
+        </tr>  
+   -->
+
+          
+
+   
+  </table>
+  <!-- <ul *ngFor="let item of storePageData.length; let i=index">
+      <li>
+        <ul *ngFor="let topping of storePageData[i].topping">
+         <li>{{topping.id}}</li>
+         <li>{{topping.type}}</li>
+        </ul> 
+      </li>
+    </ul> -->
+</div>  

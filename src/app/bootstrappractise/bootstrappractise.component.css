@@ -1,0 +1,97 @@
+.customDiv{
+    margin:3px;
+    background-color: silver;
+    text-align: left;
+    height: 575px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: -30px;
+    margin-right: 5px;
+   
+}
+.homepageSidebar{
+    margin:3px;
+    background-color: silver;
+    text-align: center;
+    height: 575px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left:0px;
+   width: 208px;;
+    position: fixed;
+   
+}
+.homepageSidebar a{
+   
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    margin: 15px;
+    padding: 10px
+}
+.homepageSidebar a:hover{
+    background-color: black;
+    border-radius: 15px;
+    color: #ffffff;
+    
+}
+
+img{
+    height: 20px;
+    width: 30px
+    /*width: 200px;*/
+}
+.countries a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.sidebar{
+    margin:3px;
+    background-color: silver;
+    text-align: center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+
+.mainContent{
+    margin:3px;
+    background-color: silver;
+    text-align: center;
+    height: 610px;
+}
+hr{
+    border:  0.5 solid blue;
+}
+.customDiv2{
+    height: 50px;
+    background-color: silver;
+    padding: 10px;
+}
+.countries{
+    height: 20px;
+    background-color: silver;
+    
+    margin-bottom: -1px;
+    /*margin: 5px;*/
+    padding-top: 15px;
+    text-align: center;
+    padding: 15px;
+    display: inline;
+    
+}
+/*.countries a li{
+    padding: 10px 0px 0px 80px;
+}*/
+.companies>a:focus{
+    background-color: #B0B0B0;
+    color: red;
+}
+ .footerbar{
+     background-color: silver;
+     height: 40px;
+     text-align: center;
+ }

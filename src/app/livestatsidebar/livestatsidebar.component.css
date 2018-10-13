@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: crimson;
+    
+    transition: all 500ms linear;
+}
+/*#sidebar.active{
+    left: 0px;
+}*/
+#sidebar ul li{
+    color: rebeccapurple;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid royalblue; 
+}
+#sidebar .toggle-btn{
+    position: absolute;
+    left: 230px;
+    top:20px;
+
+}
+#sidebar .toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: blueviolet;   
+    margin: 5px 0px;
+}

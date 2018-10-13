@@ -1,0 +1,52 @@
+.header{
+    height: 35px;
+    background-color: silver;
+}
+.header a{
+    float: right;
+    padding: 5px 0px 0px 15px;
+    text-decoration: none;
+    
+}
+.text-piped span::after{
+    content: "|";
+    margin: 0 10px;
+}
+#cg_logo{
+    height: 50px;
+    width: 150px;
+    padding-left: 15px;
+    margin-top: 20px; 
+}
+
+.btn-grooup{
+float: right;
+margin-right: 0px;
+margin-top: -61px;
+}
+.headerLinks a{
+    float:  right;
+    margin-right: 0px;
+}
+/* .jumbotron{
+    height: 200px;
+    margin-top: 27px;
+} */
+.cp_middle_img{
+    margin-top: 15px; 
+    height: 250px;
+    width: 930px;
+}
+.ourPractise{
+    background-color: silver;
+    height: 240px;
+    width: 290px;
+    margin-top: 10px;
+    text-align: center;
+}
+.emergencyAccouncement{
+    width: 930px;
+    height: 50px;
+    background-color: silver;
+    margin-top: 5px;
+}

@@ -1,0 +1,20 @@
+#blogo{
+    height: 58px;
+    position: relative;
+    border-image-outset: 0pt;
+    background-color: blue;
+    background: blue;
+    padding-left: 5%;
+    
+}
+#head{
+    background-color: blue;
+}
+
+#liveheader{
+    height: 15%;   
+    color: white;
+    width: 100%;
+    position: absolute;
+    padding-left: 12%; 
+}

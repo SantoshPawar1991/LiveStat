@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {EmployeeService} from './employee.service' ;
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+    constructor(private _emp : EmployeeService){
+  }
+  ngOnInit() :void{
+    this._emp.empData()
+          .subscribe(res => {
+              console.log(res);
+          })
+  }
+
 }

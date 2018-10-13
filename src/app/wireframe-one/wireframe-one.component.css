@@ -1,0 +1,56 @@
+.cmpHeader{
+    height: 80px;
+    background-color: silver;
+    position: relative;
+}
+#headerImg{
+    height: 50px;
+}
+h3{
+    margin-top: -61px;
+    margin-left: 80px;
+    font-size: 30px;
+    color: blue;
+}
+.fa-search{
+    /* padding-left: 557px; */
+    position: absolute;
+    padding-left: 934px;
+}
+input[type="text"]{
+    padding: 8px;
+    border-radius: 8px;
+    /* margin-right: 49px; */
+    
+}
+.subHead{
+    background-color: silver;
+    height: 300px;
+    width: 200px;
+    margin-top: 120px;
+    margin-left: 80px;
+    text-align: center;
+}
+.btn-group-class{
+    margin-top: -20px;
+}
+.headline{
+    margin: 45px 0px 0px 397px;
+    color: orangered;
+}
+.innerImage{
+    height: 150px;
+    width: 150px;
+}
+.playerName{
+    padding: 30px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.footer{
+    background-color: silver;
+    height: 30px;
+    margin-top: 550px;
+    text-align: center;
+}
